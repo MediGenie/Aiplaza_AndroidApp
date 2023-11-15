@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Changed below code to support both cordova and web envioronment at the same time for the react app.
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
